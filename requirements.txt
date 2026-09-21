@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+networkx
+pymysql
+python-dotenv
