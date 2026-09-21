@@ -1,0 +1,19 @@
+# 비밀 정보
+.env
+.streamlit/secrets.toml
+.aws/
+
+# 데이터
+*.csv
+*.parquet
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 에디터·OS
+.vscode/
+.DS_Store
+Thumbs.db

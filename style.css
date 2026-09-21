@@ -1,0 +1,44 @@
+[data-testid="stSidebar"] {
+    background: #0e1730;
+    border-right: 1px solid #1f2b44;
+}
+
+[data-testid="stMetric"] {
+    background: #111a2e;
+    border: 1px solid #1f2b44;
+    border-radius: 12px;
+    padding: 16px 18px;
+}
+.kpi {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 18px;
+    border-radius: 12px;
+    border: 1px solid #1f2b44;
+    background: #111a2e;
+}
+.kpi .ico { font-size: 34px; }
+.kpi .lbl { font-size: 13px; color: #aab4c5; }
+.kpi .val { font-size: 30px; font-weight: 800; color: #ffffff; }
+.kpi .delta { font-size: 13px; color: #f87171; margin-left: 8px; }
+
+.kpi.blue  { background: #14203d; border-color: #23407a; }
+.kpi.red   { background: #2a1420; border-color: #5a2338; }
+.kpi.green { background: #0f2a25; border-color: #1f4d43; }
+
+.tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    margin: 4px 4px 0 0;
+    border-radius: 999px;
+    background: #1a2b52;
+    color: #9db4ff;
+    border: 1px solid #27407a;
+}
+.period {
+    font-size: 12px;
+    color: #8b98ad;
+    margin-left: 8px;
+}
